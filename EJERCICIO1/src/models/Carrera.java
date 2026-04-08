@@ -3,14 +3,14 @@ package models;
 public class Carrera {
 
     private String nombre;
-    private int duración;
+    private int duracion;
 
     public Carrera() {
     }
 
-    public Carrera(String nombre, int duración) {
+    public Carrera(String nombre, int duracion) {
         this.nombre = nombre;
-        this.duración = duración;
+        this.duracion = duracion;
     }
 
     public String getNombre() {
@@ -21,19 +21,20 @@ public class Carrera {
         this.nombre = nombre;
     }
 
-    public int getDuración() {
-        return duración;
+    public int getDuracion() {
+        return duracion;
     }
 
-    public void setDuración(int duración) {
-        this.duración = duración;
+    public void setDuracion(int duracion) {
+        this.duracion = duracion;
     }
 
     @Override
     public String toString() {
         return "Carrera{" +
                 "nombre='" + nombre + '\'' +
-                ", duración=" + duración +
+                ", duración=" + duracion +
                 '}';
     }
+
 }
