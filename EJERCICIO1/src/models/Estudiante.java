@@ -48,6 +48,10 @@ public class Estudiante {
         this.carrera = carrera;
     }
 
+    public boolean aprobar() {
+        return getPromedio() >= 70;
+    }
+
     @Override
     public String toString() {
         return "Estudiante{" +
