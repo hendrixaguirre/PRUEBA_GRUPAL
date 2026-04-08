@@ -69,6 +69,13 @@ public class Cuenta {
             saldo -= monto;
             System.out.println("El retiro se ha realizado correctamente!");
         }
+
+    }
+
+    public String mostrarDatos() {
+        return "Cuenta N°: " + numeroCuenta +
+                "\nTitular: " + cliente +
+                "\nSaldo actual: $" + saldo;
     }
 
 
