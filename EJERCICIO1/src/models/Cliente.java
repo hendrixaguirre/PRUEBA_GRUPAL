@@ -1,14 +1,14 @@
 package models;
 
-public class Clientes {
+public class Cliente {
     private String identificacion;
     private String nombre;
     private String apellido;
 
-    public Clientes() {
+    public Cliente() {
     }
 
-    public Clientes(String identificacion, String nombre, String apellido) {
+    public Cliente(String identificacion, String nombre, String apellido) {
         this.identificacion = identificacion;
         this.nombre = nombre;
         this.apellido = apellido;
